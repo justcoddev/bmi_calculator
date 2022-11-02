@@ -1,8 +1,8 @@
 .fondoItem {
   background-color: #FF111328;
   height: 130px;
-  border-radius: 20px;
-  color: white;
+  border-radius: var(--border-radius-3);
+  color: var(--color-1);
 }
 
 .row {
@@ -11,15 +11,15 @@
 }
 
 .btn-color {
-  background-color: #ff3366;
-  border-color: #ff3366;
-  border-radius: 25px;
+  background-color: var(--color-3);
+  border-color: var(--color-3);
+  border-radius: var(--border-radius-1);
   width: 100%;
 }
 
 .btn-color:hover {
-  background-color: #ff3366;
-  border-color: #ff3366;
+  background-color: var(--color-3);
+  border-color: var(--color-3);
 }
 
 .contenedor {
@@ -31,13 +31,13 @@
 }
 
 .estiloNumero {
-  font-size: 32px;
+  font-size: var(--font-size-1);
   font-weight: 800;
   margin-top: -30px;
 }
 
 .cm {
-  font-size: 16px;
+  font-size: var(--font-size-2);
   font-weight: 400;
   margin-left: -10px;
 }
@@ -47,16 +47,17 @@
 }
 
 input[type=range]::-webkit-slider-thumb {
-  background-color: #ff3366;
+  background-color: var(--color-3);
 }
 
 .sumaResta {
   cursor: pointer;
-  background-color: #FF4C4F5E;
+  background-color: var(--color-3);
   padding: 7px;
-  border-radius: 15px;
+  border-radius: var(--border-radius-2);
   margin-left: 3px;
 }
-.sexoDesactivado{
-  background-color: #7d2f2f33 ;
+
+.sexoDesactivado {
+  background-color: var(--color-4);
 }

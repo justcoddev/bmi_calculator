@@ -30,4 +30,5 @@ export class InicioComponent implements OnInit {
   calcularBMI() {
     this.router.navigate(['/resultado'])
   }
+  
 }
