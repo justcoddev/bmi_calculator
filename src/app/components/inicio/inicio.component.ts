@@ -28,7 +28,10 @@ export class InicioComponent implements OnInit {
     this.sexo = 'Femenino';
   }
   calcularBMI() {
-    this.router.navigate(['/resultado'])
+    const BMI = this.peso / Math.pow(this.altura / 100, 2);
+    // console.log(BMI.toFixed(1));
+    this.router.navigate(['/resultado', BMI.toFixed(1)]);
   }
-  
+
+
 }
