@@ -1,0 +1,31 @@
+.fondoItem {
+  background-color: #FF111328;
+  height: 130px;
+  border-radius: 20px;
+  color: white;
+}
+
+.row {
+  margin: 20px;
+
+}
+
+.btn-color {
+  background-color: #ff3366;
+  border-color: #ff3366;
+  border-radius: 25px;
+  width: 100%;
+}
+
+.btn-color:hover {
+  background-color: #ff3366;
+  border-color: #ff3366;
+}
+
+.contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
