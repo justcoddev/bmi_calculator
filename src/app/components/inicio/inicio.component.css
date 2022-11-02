@@ -29,3 +29,23 @@
   flex-direction: column;
   height: 100%;
 }
+
+.estiloNumero {
+  font-size: 32px;
+  font-weight: 800;
+  margin-top: -30px;
+}
+
+.cm {
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: -10px;
+}
+
+.form-range {
+  padding: 0 20px;
+}
+
+input[type=range]::-webkit-slider-thumb {
+  background-color: #ff3366;
+}
