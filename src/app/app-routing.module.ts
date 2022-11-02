@@ -10,7 +10,7 @@ const routes: Routes = [
     component: InicioComponent,
   },
   {
-    path: 'resultado',
+    path: 'resultado/:valor',
     component: ResultadoComponent
   },
 
